@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
-import { fadeUp, scaleUp } from '@/lib/animations';
+import { fadeUp } from '@/lib/animations';
 import { useSectionInView } from '@/hooks/useInView';
 
 export default function FinalCTA() {
@@ -25,7 +25,7 @@ export default function FinalCTA() {
               animate={inView ? 'visible' : 'hidden'}
               variants={{
                 hidden: { opacity: 0, y: 32 },
-                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.15, ease: [0.22, 1, 0.36, 1] } }
+                visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.15, ease: 'easeOut' } }
               }}
               className="text-lg text-slate-500 mb-10"
             >

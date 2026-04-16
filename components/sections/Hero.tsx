@@ -87,7 +87,7 @@ export default function Hero() {
         <motion.div 
             initial={{ opacity: 0, x: 60 }}
             animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 60 }}
-            transition={{ duration: 0.6, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.6, delay: 0.4, ease: 'easeOut' }}
             className="relative w-full max-w-md mx-auto lg:ml-auto max-h-[260px] lg:max-h-none flex justify-center order-first lg:order-last perspective-1000"
         >
             <div className="relative z-10 w-full bg-white rounded-2xl shadow-xl border border-slate-100 overflow-hidden transform lg:rotate-y-[-5deg] lg:rotate-x-[5deg] transition-transform duration-700 hover:rotate-0">

@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { Icon } from '@iconify/react';
-import { staggerContainer, fadeUp, scaleUp } from '@/lib/animations';
+import { staggerContainer, fadeUp } from '@/lib/animations';
 import { useSectionInView } from '@/hooks/useInView';
 import { useState, useEffect } from 'react';
 
