@@ -41,13 +41,13 @@ export default function FinalCTA() {
               }}
             >
               <motion.a 
-                href="#oferta" 
+                href="https://pay.kiwify.com.br/ksJjnPH" 
                 whileHover={{ scale: 1.02 }}
                 animate={{ boxShadow: ['0 0 0 0 rgba(22,163,74,0)', '0 0 0 12px rgba(22,163,74,0.15)', '0 0 0 0 rgba(22,163,74,0)'] }}
                 transition={{ duration: 2, repeat: Infinity }}
                 className="inline-flex items-center justify-center gap-2 bg-primary text-white text-lg font-medium rounded-xl px-10 py-5 hover:bg-primaryHover transition-colors shadow-md hover:shadow-lg hover:-translate-y-0.5 w-full sm:w-auto group"
               >
-                  Quero meu Guia agora — R$ 37
+                  Quero meu Guia agora — R$ 9,90
                   <Icon icon="solar:arrow-right-linear" className="transition-transform group-hover:translate-x-1" />
               </motion.a>
             </motion.div>

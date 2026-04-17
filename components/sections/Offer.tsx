@@ -78,11 +78,11 @@ export default function Offer() {
                     <span className="text-slate-400 line-through text-lg font-medium mb-1">De R$ 97,00 por apenas</span>
                     <div className="flex items-start justify-center gap-1 text-dark">
                         <span className="text-2xl font-semibold mt-2 text-primary">R$</span>
-                        <span className="text-6xl md:text-7xl font-semibold tracking-tight text-primary">37</span>
-                        <span className="text-2xl font-semibold mt-2 text-primary">,00</span>
+                        <span className="text-6xl md:text-7xl font-semibold tracking-tight text-primary">9</span>
+                        <span className="text-2xl font-semibold mt-2 text-primary">,90</span>
                     </div>
                     <div className="mt-4 bg-primary/10 text-primary px-3 py-1 rounded-full text-xs font-medium inline-block">
-                        Você economiza R$ 60 hoje
+                        Você economiza R$ 87,10 hoje
                     </div>
 
                     {/* Timer */}
@@ -126,7 +126,8 @@ export default function Offer() {
                     </motion.li>
                 </motion.ul>
 
-                <motion.button 
+                <motion.a 
+                    href="https://pay.kiwify.com.br/ksJjnPH"
                     whileHover={{ scale: 1.02 }}
                     animate={{ boxShadow: ['0 0 0 0 rgba(22,163,74,0)', '0 0 0 12px rgba(22,163,74,0.15)', '0 0 0 0 rgba(22,163,74,0)'] }}
                     transition={{ duration: 2, repeat: Infinity }}
@@ -134,7 +135,7 @@ export default function Offer() {
                 >
                     Quero transformar meu café da manhã
                     <Icon icon="solar:arrow-right-linear" className="transition-transform group-hover:translate-x-1" />
-                </motion.button>
+                </motion.a>
                 
                 {/* Trust Seals */}
                 <div className="mt-6 flex flex-wrap items-center justify-center gap-3">

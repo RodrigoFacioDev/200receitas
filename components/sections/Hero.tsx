@@ -44,12 +44,12 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div variants={fadeUp} className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <motion.a 
-              href="#oferta" 
+              href="https://pay.kiwify.com.br/ksJjnPH" 
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center justify-center gap-2 bg-primary text-white text-base font-medium rounded-xl px-8 py-4 hover:bg-primaryHover transition-colors shadow-sm hover:shadow-md w-full sm:w-auto"
             >
-              Quero meu Guia agora — R$ 37
+              Quero meu Guia agora — R$ 9,90
             </motion.a>
             <motion.a 
               href="#solucao" 
