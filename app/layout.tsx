@@ -44,6 +44,13 @@ export default function RootLayout({
             fbq('track', 'PageView');
           `}
         </Script>
+        <script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-xcod-sck
+          data-utmify-prevent-subids
+          async
+          defer
+        ></script>
       </head>
       <body className="font-sans antialiased text-slate-600 bg-background selection:bg-primary/20 selection:text-primary overflow-x-hidden">
         <noscript>
