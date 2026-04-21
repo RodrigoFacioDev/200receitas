@@ -5,6 +5,7 @@ import Pain from '@/components/sections/Pain';
 import Solution from '@/components/sections/Solution';
 import Benefits from '@/components/sections/Benefits';
 import Testimonials from '@/components/sections/Testimonials';
+import Deliverables from '@/components/sections/Deliverables';
 import Offer from '@/components/sections/Offer';
 import Guarantee from '@/components/sections/Guarantee';
 import FAQ from '@/components/sections/FAQ';
@@ -20,6 +21,7 @@ export default function Home() {
         <Solution />
         <Benefits />
         <Testimonials />
+        <Deliverables />
         <Offer />
         <Guarantee />
         <FAQ />
