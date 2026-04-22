@@ -41,7 +41,7 @@ export default function FinalCTA() {
               }}
             >
               <motion.a 
-                href="https://pay.kiwify.com.br/ksJjnPH" 
+                href="https://pay.wiapy.com/ZxZYC6jDxN" 
                 whileHover={{ scale: 1.02 }}
                 animate={{ boxShadow: ['0 0 0 0 rgba(22,163,74,0)', '0 0 0 12px rgba(22,163,74,0.15)', '0 0 0 0 rgba(22,163,74,0)'] }}
                 transition={{ duration: 2, repeat: Infinity }}

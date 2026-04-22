@@ -123,7 +123,7 @@ export default function Offer() {
                     </ul>
 
                     <a 
-                        href="https://pay.kiwify.com.br/ksJjnPH"
+                        href="https://pay.wiapy.com/ZxZYC6jDxN"
                         className="w-full bg-slate-100 text-slate-700 text-lg font-bold rounded-xl py-4 hover:bg-slate-200 transition-colors flex items-center justify-center gap-2"
                     >
                         Quero a Oferta Básica
@@ -182,7 +182,7 @@ export default function Offer() {
                     </ul>
 
                     <motion.a 
-                        href="https://pay.kiwify.com.br/ksJjnPH"
+                        href="https://pay.wiapy.com/ZxZYC6jDxN"
                         whileHover={{ scale: 1.02 }}
                         animate={{ boxShadow: ['0 0 0 0 rgba(22,163,74,0)', '0 0 0 15px rgba(22,163,74,0.15)', '0 0 0 0 rgba(22,163,74,0)'] }}
                         transition={{ duration: 2, repeat: Infinity }}

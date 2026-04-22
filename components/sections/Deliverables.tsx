@@ -129,7 +129,7 @@ export default function Deliverables() {
                     
                     <motion.div variants={fadeUp} className="pt-6 mt-6 border-t border-slate-200">
                         <a 
-                            href="https://pay.kiwify.com.br/ksJjnPH" 
+                            href="https://pay.wiapy.com/ZxZYC6jDxN" 
                             className="flex items-center justify-center gap-2 bg-primary text-white text-lg font-bold rounded-xl px-8 py-5 hover:bg-primaryHover transition-colors shadow-lg shadow-primary/30 w-full transform hover:scale-[1.02] active:scale-95"
                         >
                             Liberar Meu Acesso Agora (R$ 9,90)
