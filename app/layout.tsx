@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${inter.variable}`}>
       <head>
-        <Script id="meta-pixel" strategy="afterInteractive">
+        <script>
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -43,7 +43,7 @@ export default function RootLayout({
             fbq('init', '1461225546021042');
             fbq('track', 'PageView');
           `}
-        </Script>
+        </script>
         <script
           src="https://cdn.utmify.com.br/scripts/utms/latest.js"
           data-utmify-prevent-xcod-sck
@@ -54,9 +54,9 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased text-slate-600 bg-background selection:bg-primary/20 selection:text-primary overflow-x-hidden">
         <noscript>
-          <img 
-            height="1" 
-            width="1" 
+          <img
+            height="1"
+            width="1"
             style={{ display: 'none' }}
             src="https://www.facebook.com/tr?id=1461225546021042&ev=PageView&noscript=1"
             alt=""
