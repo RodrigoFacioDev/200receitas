@@ -12,30 +12,30 @@ export default function Deliverables() {
 
   const items = [
     {
-      title: "Guia Digital: 200 Receitas Saudáveis",
-      description: "O e-book completo com todas as receitas testadas e aprovadas, divididas por categorias (fácil, low carb, proteico, etc).",
+      title: "200 Receitas Inéditas e Práticas",
+      description: "Um acervo completo de receitas deliciosas criadas especialmente para facilitar sua vida e melhorar sua saúde alimentar.",
       icon: "solar:book-bookmark-bold-duotone",
       color: "text-primary",
       bg: "bg-primary/10"
     },
     {
-      title: "Acesso Vitalício + Atualizações",
-      description: "Pague uma única vez e tenha acesso para sempre, incluindo as novas receitas que adicionamos todo mês.",
-      icon: "solar:infinity-bold-duotone",
+      title: "Ingredientes Simples e Baratos",
+      description: "Sem dietas malucas ou produtos difíceis de achar. Nós usamos ingredientes que você já tem na geladeira ou encontra em qualquer mercado.",
+      icon: "solar:cart-large-minimalistic-bold-duotone",
       color: "text-accent",
       bg: "bg-accent/10"
     },
     {
-      title: "Bônus: Guia de Substituições",
-      description: "Aprenda a adaptar as receitas com o que você já tem na geladeira, sem precisar ir ao mercado.",
-      icon: "solar:refresh-circle-bold-duotone",
+      title: "Instruções Diretas ao Ponto",
+      description: "Modo de preparo simplificado, feito para quem não tem muito tempo sobrando e quer acertar a receita de primeira.",
+      icon: "solar:clock-circle-bold-duotone",
       color: "text-purple-500",
       bg: "bg-purple-500/10"
     },
     {
-      title: "Bônus: Vídeos Passo a Passo",
-      description: "Acesso às vídeo-aulas práticas de apoio para as receitas principais. Impossível errar o ponto.",
-      icon: "solar:play-bold-duotone",
+      title: "Acesso 100% Digital",
+      description: "Leia de onde quiser: pelo celular, tablet ou computador. Baixe o guia e leve as receitas sempre com você na cozinha.",
+      icon: "solar:smartphone-2-bold-duotone",
       color: "text-blue-500",
       bg: "bg-blue-500/10"
     }

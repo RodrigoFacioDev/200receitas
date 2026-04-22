@@ -6,6 +6,7 @@ import Solution from '@/components/sections/Solution';
 import Benefits from '@/components/sections/Benefits';
 import Testimonials from '@/components/sections/Testimonials';
 import Deliverables from '@/components/sections/Deliverables';
+import Bonuses from '@/components/sections/Bonuses';
 import Offer from '@/components/sections/Offer';
 import Guarantee from '@/components/sections/Guarantee';
 import FAQ from '@/components/sections/FAQ';
@@ -22,6 +23,7 @@ export default function Home() {
         <Benefits />
         <Testimonials />
         <Deliverables />
+        <Bonuses />
         <Offer />
         <Guarantee />
         <FAQ />

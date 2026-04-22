@@ -91,7 +91,7 @@ export const testimonials: Testimonial[] = [
     id: "t3",
     name: "Camila T.",
     location: "Rio de Janeiro, RJ",
-    text: "\"Sou péssimo na cozinha, nunca sei o que fazer. Mas as receitas com os videozinhos passo a passo são impossíveis de errar. Recomendo demais.\"",
+    text: "\"Sou péssima na cozinha, nunca sei o que fazer. Mas o passo a passo simplificado é impossível de errar. Recomendo demais.\"",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80",
     timeAgo: "há 3 semanas"
   },
@@ -121,12 +121,12 @@ export const faqs: FAQ[] = [
   {
     id: "f2",
     question: "Sou iniciante na cozinha. Consigo fazer?",
-    answer: "Com certeza. As receitas foram pensadas para quem não tem tempo e não tem habilidade avançada. Elas são classificadas como nível fácil/médio, e o modo de preparo é direto ao ponto. Além disso, as receitas principais contam com vídeo passo a passo."
+    answer: "Com certeza. As receitas foram pensadas para quem não tem tempo e nem habilidade avançada. O modo de preparo é detalhado, 100% focado na praticidade para qualquer iniciante acertar na primeira tentativa."
   },
   {
     id: "f3",
     question: "Funciona para quem tem intolerância ao glúten ou lactose?",
-    answer: "Sim. O guia é bastante abrangente. Incluímos mais de 40 receitas sem glúten e mais de 30 sem lactose. Todas estão claramente sinalizadas para facilitar a sua busca. O bônus de substituições também ajuda a adaptar outras receitas."
+    answer: "Sim. O guia é bastante abrangente. Incluímos mais de 40 receitas sem glúten e mais de 30 sem lactose, claramente sinalizadas. Além disso, as receitas usam ingredientes comuns que podem ser facilmente substituídos conforme a sua necessidade."
   },
   {
     id: "f4",
@@ -136,6 +136,6 @@ export const faqs: FAQ[] = [
   {
     id: "f5",
     question: "Como recebo o guia após a compra?",
-    answer: "O acesso é imediato. Assim que o pagamento é confirmado (Pix e Cartão aprovam na hora), você recebe um e-mail com seus dados de acesso à plataforma onde o e-book e os vídeos estão hospedados. Você pode acessar do celular, tablet ou computador, para sempre."
+    answer: "O acesso é imediato. Assim que o pagamento é confirmado (Pix e Cartão aprovam na hora), você recebe um e-mail com o acesso para baixar o seu e-book na mesma hora. Você pode abrir o arquivo no seu celular, tablet, computador, ou até mesmo imprimir."
   }
 ];

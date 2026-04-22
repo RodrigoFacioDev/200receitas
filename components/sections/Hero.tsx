@@ -107,7 +107,7 @@ export default function Hero() {
                         <div className="w-2.5 h-2.5 rounded-full bg-slate-200"></div>
                         <div className="w-2.5 h-2.5 rounded-full bg-slate-200"></div>
                     </div>
-                    <span className="text-xs font-medium text-slate-400">Guia Digital &amp; Vídeos</span>
+                    <span className="text-xs font-medium text-slate-400">Guia 100% Digital</span>
                 </div>
                 
                 <div className="p-6 md:p-8 space-y-6 bg-gradient-to-br from-white to-slate-50 relative">
